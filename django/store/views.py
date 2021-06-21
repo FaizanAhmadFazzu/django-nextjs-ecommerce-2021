@@ -25,9 +25,7 @@ class CategoryItemView(generics.ListAPIView):
             category__in=Category.objects.get(slug=self.kwargs["slug"]).get_descendants(include_self=True)
         )
 
-class ProductListView(generics.ListAPIView):
-    queryset = Product.objects.all()
-    serializer_class = ProductSerializer
+
 
 
 
