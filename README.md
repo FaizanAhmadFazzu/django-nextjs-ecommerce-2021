@@ -1,1 +1,1 @@
-# django-reactjs-ecommerce-2021
+# django-nextjs-ecommerce-2021
